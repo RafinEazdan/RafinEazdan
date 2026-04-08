@@ -1,16 +1,22 @@
-## Hi there, I like to code in Python!!  👋
+# Hi there, I'm Rafin Eazdan 👋
 
-<!--
-**RafinEazdan/RafinEazdan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile!
 
-Here are some ideas to get you started:
+## 👨‍💻 About Me
+- 🐍 I enjoy coding in **Python**
+- 🌱 I’m currently learning and building new projects
+- 💡 I like solving real-world problems with code
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+- **Languages:** Python, JavaScript
+- **Tools:** Git, GitHub, VS Code
+
+## 🚀 What I’m Working On
+- Personal coding projects
+- Improving problem-solving and software development skills
+
+## 🤝 Let’s Connect
+- 📫 Reach me on GitHub: [@RafinEazdan](https://github.com/RafinEazdan)
+
+---
+Thanks for visiting my profile! ⭐
