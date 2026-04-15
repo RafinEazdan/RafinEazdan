@@ -33,9 +33,10 @@
 - Full-stack products with deployed demos and production-style workflows.
 - Well-documented repositories that explain architecture, design choices, and technical tradeoffs clearly.
 
-## Currently Working On
+## Current Projects
 
 - Expanding my content extraction and recommendation work by adding Reddit data alongside existing platform signals.
+- Conducting undergraduate thesis research in computer vision for medical imaging, specifically multi-class brain tumor segmentation.
 
 ## Featured Projects
 
