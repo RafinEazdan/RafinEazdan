@@ -41,13 +41,20 @@
 
 | Project | Why it stands out | Stack | Links |
 | --- | --- | --- | --- |
+| **VLM Fine-Tuning for Bangla Meme Classification** | Fine-tuned Qwen2-VL-2B-Instruct with QLoRA via Unsloth to classify Bangla memes into four target categories, reaching 83.24% macro accuracy on a held-out test split with a single-GPU training budget. | Python, Unsloth, PyTorch, TRL, PEFT | [Repo](https://github.com/RafinEazdan/VLM-Finetuning) |
 | **Brain MRI Segmentation** | Built a custom Double Attention Multiscale Dense U-Net for multi-class brain tumor segmentation on the BraTS 2020 dataset, trained with mixed precision and an attention-heavy architecture. | Python, PyTorch, Medical Imaging | [Repo](https://github.com/RafinEazdan/Brain-MRI-Segmentation-using-Double-Attention-based-Multiscale-Dense-U-Net) |
 | **Content Signal Extraction API** | Designed a recommendation-focused backend that ingests YouTube content signals, analyzes comments for sentiment and toxicity, and generates title ideas from audience feedback. | FastAPI, PostgreSQL, Redis, NLP | [Repo](https://github.com/RafinEazdan/Content-Signal-Extraction-and-Recommendation-API) |
-| **Dengue Prediction from Hematological Data** | Developed a full ML pipeline for dengue classification with preprocessing, feature selection, class balancing, multiple model families, and comparative evaluation on clinical data. | Python, scikit-learn, PyTorch, LightGBM | [Repo](https://github.com/RafinEazdan/Machine-Learning-Based-Dengue-Prediction-from-Hematological-Data) |
-| **Kaggle: Introverts vs Extroverts** | Built a competition solution for the Kaggle Playground Series and finished **525th out of 4,329 teams**, placing in roughly the top 12% with a binary-classification workflow built around feature engineering, model comparison, and ensembling. | Python, Kaggle, ML Modeling | [Repo](https://github.com/RafinEazdan/Predict-Introverts-Extroverts-Kaggle-Competition) |
 | **RAG Document Chatbot** | Created a grounded document Q&A API with citations, FAISS retrieval, conversation memory, prompt-injection defense, and Docker support. | FastAPI, FAISS, Gemini, Docker | [Repo](https://github.com/RafinEazdan/AI-Document-Chatbot-RAG) |
+| **Dengue Prediction from Hematological Data** | Developed a full ML pipeline for dengue classification with preprocessing, feature selection, class balancing, multiple model families, and comparative evaluation on clinical data. | Python, scikit-learn, PyTorch, LightGBM | [Repo](https://github.com/RafinEazdan/Machine-Learning-Based-Dengue-Prediction-from-Hematological-Data) |
 | **Expense Tracker** | Shipped a full-stack expense product with OTP-based auth, per-user expense management, and optional LLM-powered insights. | FastAPI, PostgreSQL, Redis, TypeScript | [Backend](https://github.com/RafinEazdan/Expense_Tracker) · [Frontend](https://github.com/RafinEazdan/Expense_Tracker_Frontend) · [Live Demo](https://expense-tracker-self-mu-50.vercel.app/) |
 | **WanderLust** | Built a travel-focused web app with a more product-oriented frontend experience and deployment workflow. | JavaScript, Web App Architecture | [Repo](https://github.com/RafinEazdan/WanderLust) |
+
+## Competitions
+
+| Competition | Event & Team | Rank | Highlights | Link |
+| --- | --- | --- | --- | --- |
+| **DL Sprint 4.0 — Bengali Long-form Speech Recognition** | BUET CSE Fest 2026 Datathon · Team | **51 / 124** | Built a Bangla long-form ASR system for lectures, interviews, and conversational audio by fine-tuning the `hishab/titu_stt_bn_conformer_large` Conformer model to generate Bangla transcripts from raw audio. | [Kaggle](https://www.kaggle.com/competitions/dl-sprint-4-0-bengali-long-form-speech-recognition) |
+| **Predict the Introverts from the Extroverts — Kaggle Playground S5E7** | Kaggle Playground Series · Team | **525 / 4329 (Top 13%)** | Binary-classification workflow built around feature engineering, model comparison, and ensembling. | [Kaggle](https://www.kaggle.com/competitions/playground-series-s5e7) |
 
 ## Focus Areas
 
