@@ -57,6 +57,14 @@
 | **DL Sprint 4.0 — Bengali Long-form Speech Recognition** | BUET CSE Fest 2026 Datathon · Team | **51 / 124** | Built a Bangla long-form ASR system for lectures, interviews, and conversational audio by fine-tuning the `hishab/titu_stt_bn_conformer_large` Conformer model to generate Bangla transcripts from raw audio. | [Kaggle](https://www.kaggle.com/competitions/dl-sprint-4-0-bengali-long-form-speech-recognition) |
 | **Predict the Introverts from the Extroverts — Kaggle Playground S5E7** | Kaggle Playground Series · Team | **525 / 4329 (Top 13%)** | Binary-classification workflow built around feature engineering, model comparison, and ensembling. | [Kaggle](https://www.kaggle.com/competitions/playground-series-s5e7) |
 
+## Hackathons
+
+| Hackathon | Codebase | Participation |
+| --- | --- | --- |
+| [Noverse Hackathon](https://hackathon.noverseinc.com/) | [MedMemory--A-Friction-Based-Medication-System](https://github.com/RafinEazdan/MedMemory--A-Friction-Based-Medication-System) | Solo |
+| [HackSpark](https://www.facebook.com/events/1703877170744084) | [hackspark_RESTless](https://github.com/RafinEazdan/hackspark_RESTless) | Team |
+| [Hack the AI](https://smythos.com/hacktheai/) | [spartans-preli](https://github.com/RafinEazdan/spartans-preli) | Team |
+
 ## Focus Areas
 
 - AI-enabled backend products
