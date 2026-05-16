@@ -61,8 +61,8 @@
 
 | Hackathon | Codebase | Participation | Result |
 | --- | --- | --- | --- |
-| [Noverse Hackathon](https://hackathon.noverseinc.com/) | [MedMemory--A-Friction-Based-Medication-System](https://github.com/RafinEazdan/MedMemory--A-Friction-Based-Medication-System) | Solo | - |
 | [HackSpark](https://www.facebook.com/events/1703877170744084) | [hackspark_RESTless](https://github.com/RafinEazdan/hackspark_RESTless) | Team | Placed among the top 10 teams |
+| [Noverse Hackathon](https://hackathon.noverseinc.com/) | [MedMemory--A-Friction-Based-Medication-System](https://github.com/RafinEazdan/MedMemory--A-Friction-Based-Medication-System) | Solo | - |
 | [Hack the AI](https://smythos.com/hacktheai/) | [spartans-preli](https://github.com/RafinEazdan/spartans-preli) | Team | - |
 
 ## Focus Areas
