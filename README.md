@@ -35,17 +35,17 @@
 
 ## Current Projects
 
-- Expanding my content extraction and recommendation work by adding Reddit data alongside existing platform signals.
+- Maintaining a microservice-based content signal extraction and recommendation API across authentication, YouTube, Reddit, LLM, and gateway services.
 - Conducting undergraduate thesis research in computer vision for medical imaging, specifically multi-class brain tumor segmentation.
 
 ## Featured Projects
 
 | Project | Why it stands out | Stack | Links |
 | --- | --- | --- | --- |
+| **Content Signal Extraction API** | Built a microservice-based recommendation backend with independent auth, YouTube, Reddit, LLM, and API gateway services; it ingests platform signals, analyzes comments for sentiment and toxicity, ranks Reddit trends, and generates content ideas through an Ollama-backed LLM service. | FastAPI, PostgreSQL, Redis, Docker, Ollama | [Repo](https://github.com/RafinEazdan/Content-Signal-Extraction-and-Recommendation-API) |
+| **RAG Document Chatbot** | Created a grounded document Q&A API with citations, FAISS retrieval, conversation memory, prompt-injection defense, and Docker support. | FastAPI, FAISS, Gemini, Docker | [Repo](https://github.com/RafinEazdan/AI-Document-Chatbot-RAG) |
 | **VLM Fine-Tuning for Bangla Meme Classification** | Fine-tuned Qwen2-VL-2B-Instruct with QLoRA via Unsloth to classify Bangla memes into four target categories, reaching 83.24% macro accuracy on a held-out test split with a single-GPU training budget. | Python, Unsloth, PyTorch, TRL, PEFT | [Repo](https://github.com/RafinEazdan/vlm-finetuning-bangla-meme-classification) |
 | **Brain MRI Segmentation** | Built a custom Double Attention Multiscale Dense U-Net for multi-class brain tumor segmentation on the BraTS 2020 dataset, trained with mixed precision and an attention-heavy architecture. | Python, PyTorch, Medical Imaging | [Repo](https://github.com/RafinEazdan/Brain-MRI-Segmentation-using-Double-Attention-based-Multiscale-Dense-U-Net) |
-| **Content Signal Extraction API** | Designed a recommendation-focused backend that ingests YouTube content signals, analyzes comments for sentiment and toxicity, and generates title ideas from audience feedback. | FastAPI, PostgreSQL, Redis, NLP | [Repo](https://github.com/RafinEazdan/Content-Signal-Extraction-and-Recommendation-API) |
-| **RAG Document Chatbot** | Created a grounded document Q&A API with citations, FAISS retrieval, conversation memory, prompt-injection defense, and Docker support. | FastAPI, FAISS, Gemini, Docker | [Repo](https://github.com/RafinEazdan/AI-Document-Chatbot-RAG) |
 | **Dengue Prediction from Hematological Data** | Developed a full ML pipeline for dengue classification with preprocessing, feature selection, class balancing, multiple model families, and comparative evaluation on clinical data. | Python, scikit-learn, PyTorch, LightGBM | [Repo](https://github.com/RafinEazdan/Machine-Learning-Based-Dengue-Prediction-from-Hematological-Data) |
 | **Expense Tracker** | Shipped a full-stack expense product with OTP-based auth, per-user expense management, and optional LLM-powered insights. | FastAPI, PostgreSQL, Redis, TypeScript | [Backend](https://github.com/RafinEazdan/Expense_Tracker) · [Frontend](https://github.com/RafinEazdan/Expense_Tracker_Frontend) · [Live Demo](https://expense-tracker-self-mu-50.vercel.app/) |
 | **WanderLust** | Built a travel-focused web app with a more product-oriented frontend experience and deployment workflow. | JavaScript, Web App Architecture | [Repo](https://github.com/RafinEazdan/WanderLust) |
@@ -59,11 +59,11 @@
 
 ## Hackathons
 
-| Hackathon | Codebase | Participation |
-| --- | --- | --- |
-| [Noverse Hackathon](https://hackathon.noverseinc.com/) | [MedMemory--A-Friction-Based-Medication-System](https://github.com/RafinEazdan/MedMemory--A-Friction-Based-Medication-System) | Solo |
-| [HackSpark](https://www.facebook.com/events/1703877170744084) | [hackspark_RESTless](https://github.com/RafinEazdan/hackspark_RESTless) | Team |
-| [Hack the AI](https://smythos.com/hacktheai/) | [spartans-preli](https://github.com/RafinEazdan/spartans-preli) | Team |
+| Hackathon | Codebase | Participation | Result |
+| --- | --- | --- | --- |
+| [Noverse Hackathon](https://hackathon.noverseinc.com/) | [MedMemory--A-Friction-Based-Medication-System](https://github.com/RafinEazdan/MedMemory--A-Friction-Based-Medication-System) | Solo | - |
+| [HackSpark](https://www.facebook.com/events/1703877170744084) | [hackspark_RESTless](https://github.com/RafinEazdan/hackspark_RESTless) | Team | Placed among the top 10 teams |
+| [Hack the AI](https://smythos.com/hacktheai/) | [spartans-preli](https://github.com/RafinEazdan/spartans-preli) | Team | - |
 
 ## Focus Areas
 
