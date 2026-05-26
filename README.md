@@ -35,14 +35,14 @@
 
 ## Current Projects
 
-- Maintaining a microservice-based content signal extraction and recommendation API across authentication, YouTube, Reddit, LLM, and gateway services.
+- Maintaining CERA, a microservice-based content signal extraction and recommendation system that ranks YouTube comment demand and Reddit trends into creator-ready video ideas.
 - Conducting undergraduate thesis research in computer vision for medical imaging, specifically multi-class brain tumor segmentation.
 
 ## Featured Projects
 
 | Project | Why it stands out | Stack | Links |
 | --- | --- | --- | --- |
-| **Content Signal Extraction API** | Built a microservice-based recommendation backend with independent auth, YouTube, Reddit, LLM, and API gateway services; it ingests platform signals, analyzes comments for sentiment and toxicity, ranks Reddit trends, and generates content ideas through an Ollama-backed LLM service. | FastAPI, PostgreSQL, Redis, Docker, Ollama | [Repo](https://github.com/RafinEazdan/Content-Signal-Extraction-and-Recommendation-API) |
+| **Content Signal Extraction API** | Built CERA, a five-service FastAPI recommendation system that routes through an API gateway, shares PostgreSQL and Redis, extracts audience intent from YouTube comments, scores Reddit trends, and uses Gemini to turn ranked signals into creator-ready video title ideas. | FastAPI, PostgreSQL, Redis, Docker, Gemini, React | [Repo](https://github.com/RafinEazdan/Content-Signal-Extraction-and-Recommendation-API) |
 | **RAG Document Chatbot** | Created a grounded document Q&A API with citations, FAISS retrieval, conversation memory, prompt-injection defense, and Docker support. | FastAPI, FAISS, Gemini, Docker | [Repo](https://github.com/RafinEazdan/AI-Document-Chatbot-RAG) |
 | **VLM Fine-Tuning for Bangla Meme Classification** | Fine-tuned Qwen2-VL-2B-Instruct with QLoRA via Unsloth to classify Bangla memes into four target categories, reaching 83.24% macro accuracy on a held-out test split with a single-GPU training budget. | Python, Unsloth, PyTorch, TRL, PEFT | [Repo](https://github.com/RafinEazdan/vlm-finetuning-bangla-meme-classification) |
 | **Brain MRI Segmentation** | Built a custom Double Attention Multiscale Dense U-Net for multi-class brain tumor segmentation on the BraTS 2020 dataset, trained with mixed precision and an attention-heavy architecture. | Python, PyTorch, Medical Imaging | [Repo](https://github.com/RafinEazdan/Brain-MRI-Segmentation-using-Double-Attention-based-Multiscale-Dense-U-Net) |
