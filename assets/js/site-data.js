@@ -407,6 +407,16 @@ window.SITE_DATA = {
     }
   ],
 
+  /* ------------------------------------------------------------- moments -- */
+  gallery: [
+    {
+      img: "assets/img/moments/graduation-ruet.jpg",
+      title: "Graduation, Department of CSE, RUET",
+      caption: "Receiving my graduation crest at the Department of Computer Science &amp; Engineering, Rajshahi University of Engineering &amp; Technology.",
+      date: "2026"
+    }
+  ],
+
   /* ------------------------------------------------------------ teaching -- */
   teaching: {
     intro: "I have wanted to teach for as long as I have wanted to research, and I see the two as the same activity aimed at different audiences.",
@@ -427,6 +437,7 @@ window.SITE_DATA = {
 
   /* ---------------------------------------------------------------- news -- */
   news: [
+    { date: "11 Aug 2026", body: "Undergraduate result published — <strong>B.Sc. in Computer Science &amp; Engineering</strong> completed at RUET, CGPA 3.55 / 4.00, with a 3.73 average across the final four semesters." },
     { date: "Aug 2026", body: "Preparing PhD applications for the <strong>Fall 2027</strong> intake in the United States, focused on federated learning, medical image analysis, and efficient deep architectures." },
     { date: "2026",     body: "Undergraduate thesis <strong>completed</strong> — 113 pages on DA-MDU-Net, a federated double-attention U-Net reaching <strong>0.8819 mean region Dice</strong> on BraTS 2023 at 8.19 M parameters. Manuscript in preparation." },
     { date: "2026",     body: "Cross-cohort validation run on <strong>94 BraTS-Africa cases</strong> with no fine-tuning, holding 0.7533 mean region Dice on a population and scanner pool the model had never seen." },

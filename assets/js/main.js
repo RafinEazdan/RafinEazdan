@@ -55,6 +55,18 @@
     if (el) el.innerHTML = html;
   }
 
+  /* Every enlargeable image on the page, in the order it was rendered.
+     Thumbnails reference their entry by index via data-lb. */
+  var LIGHTBOX = [];
+  function lbRegister(item) { return LIGHTBOX.push(item) - 1; }
+
+  function strip(html) {
+    return String(html).replace(/<[^>]*>/g, '')
+      .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+      .replace(/&times;/g, '\u00D7').replace(/&nbsp;/g, ' ');
+  }
+  function attr(text) { return strip(text).replace(/"/g, ''); }
+
   /* ------------------------------------------------------------- meta -- */
 
   function renderMeta() {
@@ -303,10 +315,11 @@
              '</article>';
     }).join(''));
 
-    setHTML('#certGrid', D.certifications.map(function (c, i) {
+    setHTML('#certGrid', D.certifications.map(function (c) {
+      var i = lbRegister({ img: c.img, title: c.title, caption: c.issuer });
       return '<article class="cert-card">' +
-               '<button class="cert-thumb" data-cert="' + i + '" aria-label="Enlarge certificate: ' + c.title.replace(/"/g, '') + '">' +
-                 '<img src="' + c.img + '" alt="' + c.title.replace(/&amp;/g, '&') + ' certificate" loading="lazy">' +
+               '<button class="cert-thumb" data-lb="' + i + '" aria-label="Enlarge certificate: ' + attr(c.title) + '">' +
+                 '<img src="' + c.img + '" alt="' + attr(c.title) + ' certificate" loading="lazy">' +
                '</button>' +
                '<div class="cert-info">' +
                  '<h4>' + c.title + '</h4>' +
@@ -316,6 +329,29 @@
                    svg('check', 11) + 'Verify</a>' +
                '</div>' +
              '</article>';
+    }).join(''));
+  }
+
+  /* ---------------------------------------------------------- moments -- */
+
+  function renderGallery() {
+    var items = D.gallery || [];
+    var block = $('#momentsBlock');
+    if (!items.length) return;          /* section stays hidden when empty */
+    if (block) block.hidden = false;
+
+    setHTML('#galleryGrid', items.map(function (g) {
+      var i = lbRegister({ img: g.img, title: g.title, caption: g.caption });
+      return '<figure class="gallery-card">' +
+               '<button class="gallery-thumb" data-lb="' + i + '" aria-label="Enlarge photo: ' + attr(g.title) + '">' +
+                 '<img src="' + g.img + '" alt="' + attr(g.caption) + '" loading="lazy">' +
+               '</button>' +
+               '<figcaption class="gallery-info">' +
+                 '<h4>' + g.title + '</h4>' +
+                 (g.date ? '<p class="gallery-date">' + g.date + '</p>' : '') +
+                 '<p class="gallery-caption">' + g.caption + '</p>' +
+               '</figcaption>' +
+             '</figure>';
     }).join(''));
   }
 
@@ -482,11 +518,11 @@
     var closeBtn = $('#lightboxClose');
     var lastFocus = null;
 
-    function open(cert) {
+    function open(item) {
       lastFocus = document.activeElement;
-      img.src = cert.img;
-      img.alt = cert.title.replace(/&amp;/g, '&');
-      caption.innerHTML = cert.title + ' — ' + cert.issuer;
+      img.src = item.img;
+      img.alt = strip(item.title);
+      caption.innerHTML = item.title + (item.caption ? ' — ' + item.caption : '');
       box.hidden = false;
       requestAnimationFrame(function () { box.classList.add('is-open'); });
       document.body.style.overflow = 'hidden';
@@ -501,8 +537,8 @@
     }
 
     document.addEventListener('click', function (e) {
-      var thumb = e.target.closest('.cert-thumb');
-      if (thumb) { open(D.certifications[Number(thumb.dataset.cert)]); return; }
+      var thumb = e.target.closest('[data-lb]');
+      if (thumb) { open(LIGHTBOX[Number(thumb.dataset.lb)]); return; }
       if (e.target === box) close();
     });
 
@@ -521,6 +557,7 @@
   renderJourney();
   renderProjects();
   renderAchievements();
+  renderGallery();
   renderNews();
   renderContact();
 
