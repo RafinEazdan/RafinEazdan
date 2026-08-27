@@ -1167,6 +1167,13 @@ section:not(.band) .timeline-item::before { background: var(--bg); }
   font-weight: 500;
   color: var(--accent);
 }
+/* Secondary score chip — quieter than the headline CGPA next to it. */
+.tl-score + .tl-score { margin-left: 6px; }
+.tl-score-alt {
+  background: transparent;
+  border-color: var(--border-strong);
+  color: var(--muted);
+}
 .tl-detail {
   margin-top: 11px;
   font-size: .89rem;

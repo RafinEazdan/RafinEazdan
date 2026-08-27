@@ -39,7 +39,7 @@ window.SITE_DATA = {
   stats: [
     { value: "0.8819", unit: "Dice",   label: "Federated thesis, held-out BraTS 2023" },
     { value: "91.6%",  unit: "smaller", label: "Parameter cut at no accuracy cost" },
-    { value: "3.55",   unit: "/ 4.00", label: "CGPA, B.Sc. CSE" },
+    { value: "3.55",   unit: "/ 4.00", label: "CGPA · 3.73 final four semesters" },
     { value: "Top 13%", unit: "",      label: "Kaggle, 4,329 teams" }
   ],
 
@@ -58,13 +58,6 @@ window.SITE_DATA = {
         "A group that publishes, ships code, and cares whether the method survives contact with real clinical data."
       ],
       note: "I read carefully before I write. If my work looks relevant to yours, I would genuinely welcome the conversation."
-    },
-    supervisor: {
-      label: "Undergraduate thesis supervisor",
-      name: "A. F. M. Minhazur Rahman",
-      title: "Assistant Professor, Department of Computer Science &amp; Engineering",
-      org: "Rajshahi University of Engineering &amp; Technology (RUET)",
-      email: "afm.minhazur@cse.ruet.ac.bd"
     }
   },
 
@@ -203,7 +196,8 @@ window.SITE_DATA = {
       org: "Rajshahi University of Engineering &amp; Technology (RUET)",
       place: "Rajshahi, Bangladesh",
       score: "CGPA 3.55 / 4.00",
-      detail: "Thesis: <em>Lightweight Double-Attention U-Net for Federated Multi-Class Brain Tumor Segmentation</em>. Supervisor: A. F. M. Minhazur Rahman, Assistant Professor, Dept. of CSE."
+      score2: "3.73 average · final four semesters",
+      detail: "Thesis: <em>Lightweight Double-Attention U-Net for Federated Multi-Class Brain Tumor Segmentation</em> — a federated, 8.19 M-parameter segmentation model reaching 0.8819 mean region Dice on BraTS 2023."
     },
     {
       period: "2018 – 2020",
@@ -439,7 +433,7 @@ window.SITE_DATA = {
     { date: "2026",     body: "Placed in the <strong>Top 10</strong> at the HackSpark AI-API Hackathon, Technocracy Lite, RUET ECE." },
     { date: "2026",     body: "Ranked <strong>51 / 124</strong> in the DL Sprint 4.0 Bengali long-form speech recognition datathon at BUET CSE Fest." },
     { date: "2025",     body: "Ranked <strong>525 / 4,329 (top 13%)</strong> in Kaggle Playground Series S5E7." },
-    { date: "2025",     body: "Began undergraduate thesis on federated brain tumour segmentation under A. F. M. Minhazur Rahman at RUET." },
+    { date: "2025",     body: "Began undergraduate thesis on federated brain tumour segmentation at RUET." },
     { date: "Mar 2025", body: "Completed industrial training at <strong>Vivasoft Limited</strong>, building CV Insighter inside a professional code-review process." }
   ],
 
@@ -455,8 +449,7 @@ window.SITE_DATA = {
       name: "A. F. M. Minhazur Rahman",
       title: "Assistant Professor, Department of Computer Science &amp; Engineering",
       org: "Rajshahi University of Engineering &amp; Technology, Rajshahi–6204, Bangladesh",
-      email: "afm.minhazur@cse.ruet.ac.bd",
-      note: "Undergraduate thesis supervisor"
+      email: "afm.minhazur@cse.ruet.ac.bd"
     }
   ]
 };

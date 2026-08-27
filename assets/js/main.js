@@ -106,14 +106,6 @@
       '</ul>' +
       '<p class="looking-note">' + a.lookingFor.note + '</p>'
     );
-
-    var s = a.supervisor;
-    setHTML('#supervisorCard',
-      '<p class="card-label">' + s.label + '</p>' +
-      '<p class="sup-name">' + s.name + '</p>' +
-      '<p class="sup-line">' + s.title + '<br>' + s.org + '</p>' +
-      '<a class="sup-mail" href="mailto:' + s.email + '">' + s.email + '</a>'
-    );
   }
 
   /* --------------------------------------------------------- research -- */
@@ -218,6 +210,7 @@
                '<p class="tl-org">' + e.org + '</p>' +
                '<p class="tl-place">' + e.place + '</p>' +
                (e.score ? '<span class="tl-score">' + e.score + '</span>' : '') +
+               (e.score2 ? '<span class="tl-score tl-score-alt">' + e.score2 + '</span>' : '') +
                (e.detail ? '<p class="tl-detail">' + e.detail + '</p>' : '') +
              '</div>';
     }).join(''));
