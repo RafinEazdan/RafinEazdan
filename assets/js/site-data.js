@@ -368,17 +368,6 @@ window.SITE_DATA = {
       rank: "Top 10",
       body: "Scoped, built and presented a working solution as a team inside the contest window, with team RESTless.",
       href: "https://github.com/RafinEazdan/hackspark_RESTless"
-    },
-    {
-      year: "2019",
-      title: "Second Runner-up — Wall Magazine Competition",
-      rank: "3rd place",
-      body: "Notre Dame English Club. Judged on written English, design, and presentation."
-    },
-    {
-      year: "2019",
-      title: "Volunteer — National Science Fest",
-      body: "Notre Dame Science Club. Worked with the organising team of a national-level competition hosted by the college science club."
     }
   ],
 
@@ -437,10 +426,9 @@ window.SITE_DATA = {
 
   /* ---------------------------------------------------------------- news -- */
   news: [
-    { date: "11 Aug 2026", body: "Undergraduate result published — <strong>B.Sc. in Computer Science &amp; Engineering</strong> completed at RUET, CGPA 3.55 / 4.00, with a 3.73 average across the final four semesters." },
     { date: "Aug 2026", body: "Preparing PhD applications for the <strong>Fall 2027</strong> intake in the United States, focused on federated learning, medical image analysis, and efficient deep architectures." },
+    { date: "11 Aug 2026", body: "Undergraduate result published — <strong>B.Sc. in Computer Science &amp; Engineering</strong> completed at RUET, CGPA 3.55 / 4.00, with a 3.73 average across the final four semesters." },
     { date: "2026",     body: "Undergraduate thesis <strong>completed</strong> — 113 pages on DA-MDU-Net, a federated double-attention U-Net reaching <strong>0.8819 mean region Dice</strong> on BraTS 2023 at 8.19 M parameters. Manuscript in preparation." },
-    { date: "2026",     body: "Cross-cohort validation run on <strong>94 BraTS-Africa cases</strong> with no fine-tuning, holding 0.7533 mean region Dice on a population and scanner pool the model had never seen." },
     { date: "2026",     body: "Placed in the <strong>Top 10</strong> at the HackSpark AI-API Hackathon, Technocracy Lite, RUET ECE." },
     { date: "2026",     body: "Ranked <strong>51 / 124</strong> in the DL Sprint 4.0 Bengali long-form speech recognition datathon at BUET CSE Fest." },
     { date: "2025",     body: "Ranked <strong>525 / 4,329 (top 13%)</strong> in Kaggle Playground Series S5E7." },
