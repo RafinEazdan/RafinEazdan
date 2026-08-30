@@ -47,8 +47,7 @@ window.SITE_DATA = {
   about: {
     lede: [
       "I am a Computer Science and Engineering graduate of RUET, and I want to spend my career as a researcher in machine learning for medicine. What pulled me in is a specific, stubborn tension: the institutions holding the most valuable medical imaging data are exactly the ones that cannot pool it. Privacy law, ethics review, and institutional caution are not obstacles to route around — they are the conditions any honest clinical AI system has to be designed for.",
-      "My undergraduate thesis was my first serious attempt at that problem, and it is finished: a 113-page study of DA-MDU-Net, a double-attention multiscale dense U-Net cut from 97.98 M to 8.19 M parameters and trained federated across three client sites on BraTS 2023. It reaches 0.8819 mean region Dice on held-out cases, and the two ablations are the point of it — the 91.6% parameter cut costs nothing detectable, and federation costs about half a point against pooled training. What I am proudest of is the part that did not flatter me: running it unchanged on 94 BraTS-Africa cases from a different population and older scanners, watching it drop to 0.7533, and working out that it fails by missing tumour rather than inventing it.",
-      "Everything before this was preparation I did not know I was doing. Fine-tuning a vision-language model under a 16 GB memory budget taught me parameter-efficient training. A dengue classifier on 1,523 patient records taught me that clinical data is imbalanced, noisy, and unforgiving of leakage. Building production APIs taught me that a benchmark number is not a system. The thesis also taught me where it stops: one seed per arm, an IID partition rather than a site-based one, a 2D formulation, communication cost computed rather than measured. Those limits are the reason I am applying to PhD programs in the United States — non-IID and site-based partitions, differential privacy and secure aggregation, real clients over a real network, and 3D. I want to do those questions properly, with real supervision and the time to do them justice."
+      "My undergraduate thesis addressed this directly: DA-MDU-Net, a double-attention multiscale dense U-Net trained federated across three client sites on BraTS 2023, reaching 0.8819 mean region Dice at a 91.6% parameter cut with no measurable accuracy cost. I am now applying to PhD programs to pursue federated learning, medical image analysis, and efficient deep architectures with the depth a doctoral program allows."
     ],
     lookingFor: {
       title: "What I am looking for",
@@ -140,8 +139,6 @@ window.SITE_DATA = {
       "Dice + focal + boundary loss", "PyTorch"
     ],
     repo: {
-      label: "Architecture code on GitHub",
-      href: "https://github.com/RafinEazdan/Brain-MRI-Segmentation-using-Double-Attention-based-Multiscale-Dense-U-Net",
       note: "Public repository: the DA-MDU-Net architecture, centralised, on BraTS 2020."
     }
   },
@@ -426,7 +423,7 @@ window.SITE_DATA = {
 
   /* ---------------------------------------------------------------- news -- */
   news: [
-    { date: "Aug 2026", body: "Preparing PhD applications for the <strong>Fall 2027</strong> intake in the United States, focused on federated learning, medical image analysis, and efficient deep architectures." },
+    { date: "Aug 2026", body: "Preparing PhD applications for the <strong>Fall 2027</strong> intake, focused on federated learning, medical image analysis, and efficient deep architectures." },
     { date: "11 Aug 2026", body: "Undergraduate result published — <strong>B.Sc. in Computer Science &amp; Engineering</strong> completed at RUET, CGPA 3.55 / 4.00, with a 3.73 average across the final four semesters." },
     { date: "2026",     body: "Undergraduate thesis <strong>completed</strong> — 113 pages on DA-MDU-Net, a federated double-attention U-Net reaching <strong>0.8819 mean region Dice</strong> on BraTS 2023 at 8.19 M parameters. Manuscript in preparation." },
     { date: "2026",     body: "Placed in the <strong>Top 10</strong> at the HackSpark AI-API Hackathon, Technocracy Lite, RUET ECE." },

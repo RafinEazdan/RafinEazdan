@@ -183,10 +183,8 @@
           '<h4 class="sub-head">Methods &amp; materials</h4>' +
           tags(t.methods) +
         '</div>' +
-        (t.repo ? '<div class="thesis-repo">' +
-                    '<a class="btn btn-outline" href="' + t.repo.href + '" target="_blank" rel="noopener">' +
-                      svg('github', 15) + t.repo.label + '</a>' +
-                    (t.repo.note ? '<p class="thesis-repo-note">' + t.repo.note + '</p>' : '') +
+        (t.repo && t.repo.note ? '<div class="thesis-repo">' +
+                    '<p class="thesis-repo-note">' + t.repo.note + '</p>' +
                   '</div>' : '') +
       '</div>';
 
