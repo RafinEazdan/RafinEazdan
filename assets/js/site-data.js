@@ -19,7 +19,7 @@ window.SITE_DATA = {
     role: "B.Sc. in Computer Science &amp; Engineering — Rajshahi University of Engineering &amp; Technology",
     status: "Applying to PhD programs · Fall 2027 intake",
     tagline:
-      "I work on deep learning for medical images — and on the harder question of how to train those models when the hospitals holding the data are not allowed to share it. My undergraduate thesis rebuilt a double-attention U-Net to a twelfth of its size and trained it federated across three sites on BraTS 2023: no scan leaves its hospital, and the 91.6% parameter cut costs nothing measurable.",
+      "I'm a Computer Science and Engineering graduate from Rajshahi University of Engineering and Technology (RUET), Bangladesh. My research focuses on deep learning for medical image analysis and federated learning, with a growing interest in vision-language models and NLP for low-resource languages. I'm currently seeking MS/PhD opportunities. ",
     location: "Dhaka, Bangladesh",
     email: "eazdan.rafin@gmail.com",
     cvPath: "assets/cv/Eazdan_Mostafa_Rafin_CV.pdf",
@@ -46,17 +46,15 @@ window.SITE_DATA = {
   /* --------------------------------------------------------------- about -- */
   about: {
     lede: [
-      "I am a Computer Science and Engineering graduate of RUET, and I want to spend my career as a researcher in machine learning for medicine. What pulled me in is a specific, stubborn tension: the institutions holding the most valuable medical imaging data are exactly the ones that cannot pool it. Privacy law, ethics review, and institutional caution are not obstacles to route around — they are the conditions any honest clinical AI system has to be designed for.",
+      "I am a Computer Science and Engineering graduate of RUET, and I want to spend my career as a researcher in machine learning specially in Federated Learning and Deep Learning. ",
       "My undergraduate thesis addressed this directly: DA-MDU-Net, a double-attention multiscale dense U-Net trained federated across three client sites on BraTS 2023, reaching 0.8819 mean region Dice at a 91.6% parameter cut with no measurable accuracy cost. I am now applying to PhD programs to pursue federated learning, medical image analysis, and efficient deep architectures with the depth a doctoral program allows."
     ],
     lookingFor: {
       title: "What I am looking for",
       items: [
-        "A PhD position starting Fall 2027 in machine learning, computer vision, or medical image analysis.",
-        "An advisor working on federated or privacy-preserving learning, medical imaging, or efficient deep architectures — where my thesis is a starting point rather than a finished story.",
-        "A group that publishes, ships code, and cares whether the method survives contact with real clinical data."
-      ],
-      note: "I read carefully before I write. If my work looks relevant to yours, I would genuinely welcome the conversation."
+        "A PhD position starting Fall 2027 in Machine Learning, Deep Learning, Computer Vision, Federated Learning, or Medical Image Analysis.",
+        "An advisor working on federated or privacy-preserving learning, medical imaging, or efficient deep architectures."
+      ]
     }
   },
 
