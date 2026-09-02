@@ -7,7 +7,7 @@
     generation, analytics APIs, and full-stack web applications.
   </p>
   <p>
-    <a href="https://rafineazdan.github.io/"><strong>Portfolio</strong></a>
+    <a href="https://rafineazdan.github.io/RafinEazdan/"><strong>Portfolio</strong></a>
     •
     <a href="https://github.com/RafinEazdan?tab=repositories">Projects</a>
     •
@@ -16,8 +16,8 @@
     <a href="https://www.linkedin.com/in/eazdan-mostafa-rafin/">LinkedIn</a>
   </p>
   <p>
-    <a href="https://rafineazdan.github.io/">
-      <img src="https://img.shields.io/badge/Research_Portfolio-rafineazdan.github.io-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="Research portfolio" />
+    <a href="https://rafineazdan.github.io/RafinEazdan/">
+      <img src="https://img.shields.io/badge/Research_Portfolio-rafineazdan.github.io%2FRafinEazdan-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="Research portfolio" />
     </a>
   </p>
 </div>
@@ -92,4 +92,4 @@ I am open to internships, research collaborations, and developer roles where I c
 
 If you are hiring or building something useful, the best place to start is my [email](mailto:eazdan.rafin@gmail.com) or [LinkedIn](https://www.linkedin.com/in/eazdan-mostafa-rafin/).
 
-For research — my thesis, research interests, and CV — see my portfolio at **[rafineazdan.github.io](https://rafineazdan.github.io/)**.
+For research — my thesis, research interests, and CV — see my portfolio at **[rafineazdan.github.io/RafinEazdan](https://rafineazdan.github.io/RafinEazdan/)**.
